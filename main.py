@@ -6,8 +6,8 @@ Feel free to comment/uncomment or otherwise modify any line of code in this file
 
 #### VIRUS TRANSMISSION ####
 # calculate how many people will be infected by a population of 10 infected people over 14 days, assuming a transmission rate of 1.2
-from virus_transmission import calculate_infections
 
+from virus_transmission import calculate_infections
 starting_infections = 2
 reproduction_rate = 1.1
 num_days = 62
@@ -23,6 +23,7 @@ print(
 
 # #### NUMBER GUESSING ####
 # ask the user to guess a number between 1 and 10... give them 5 attempts
+
 from number_guessing import guess_number
 
 if guess_number(1, 10, 5):
@@ -33,6 +34,7 @@ else:
 
 # #### FOR LOOPING TURTLES ####
 # draw four overlapping squares, and then a five-pointed star
+
 from loopy_turtles import create_turtle, draw_square, draw_star
 
 t = create_turtle("red", "yellow")  # create a turtle object
